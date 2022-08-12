@@ -42,5 +42,6 @@
 ```bash
  ping 192.168.13.50 #da vm1 do pc1 para a vm2 do pc1
 ```
+* SUBSTITUA ESTE COMANDO POR FOTO DE ALGUM PING
 * Faça o mesmo para cada VM de cada computador, inclusive entre a VM2 e a VM1.
 > NOTA: o endereço do ping deve corresponder a VM que deseja ser acessada.
