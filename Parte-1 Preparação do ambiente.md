@@ -36,11 +36,11 @@
 ```
 
 * Para verificar a existência dos diretórios criados, basta combinar os comandos ```cd``` e ```ls -la```, este último exibe o que está contido em determinado diretório, como apresentado no exemplo abaixo:
-<COLOQUEM ALGUMA FIGURA SOBRE ISSO AQUI>
+COLOQUEM ALGUMA FIGURA SOBRE ISSO AQUI
 
 ### Arquivo ubuntu
- *Para que a criação das VMs possa ser realizada, precisamos que haja em ```labredes/projeto913/images/original``` o arquivo ```ubuntu-server-mini.ova```. Para isso, verifique a existencia desse arquivo no subdiretório ```original```.
- *Se o arquivo ```ubuntu-server-mini.ova``` não for encontrado no subdiretório mas existir em uma pasta diferente basta copia-lo usando o comando ```sudo cp```:
+ * Para que a criação das VMs possa ser realizada, precisamos que haja em ```labredes/projeto913/images/original``` o arquivo ```ubuntu-server-mini.ova```. Para isso, verifique a existencia desse arquivo no subdiretório ```original```.
+ * Se o arquivo ```ubuntu-server-mini.ova``` não for encontrado no subdiretório mas existir em uma pasta diferente basta copia-lo usando o comando ```sudo cp```:
  ```bash
  sudo cp /labredes/images/original/ubuntu-server-mini.ova /labredes/projeto913/images/original
  #o comando cp irá copiar o arquivo presente no primeiro caminho para o diretório do segundo caminho
