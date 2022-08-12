@@ -5,8 +5,7 @@
 ### Importação das VMs para dentro do VirtualBox
 
 * Como o objetivo principal deste projeto é conectar 8 máquinas virtuais, precisamos primeiramente importá-las para o VirtualBox, já que possuímos o arquivo ```ubuntu-server-mini.ova```(formato de exportação da VM) de cada uma delas.
-* 
-FOTOS
+* FOTOS
 
 ### Configuração da rede virtual
 * As VMs precisar estar conectadas na memsma rede interna, para isso devemos acessar as configurações de cada uma das 8 VMs, acessar a opção Rede e selecionar o mdo ```rede interna```.
@@ -44,4 +43,4 @@ FOTOS
  ping 192.168.13.50 #da vm1 do pc1 para a vm2 do pc1
 ```
 * Faça o mesmo para cada VM de cada computador, inclusive entre a VM2 e a VM1.
-> NOTA: o endereço do ping deve corresponder a Vm que deseja ser acessada.
+> NOTA: o endereço do ping deve corresponder a VM que deseja ser acessada.
