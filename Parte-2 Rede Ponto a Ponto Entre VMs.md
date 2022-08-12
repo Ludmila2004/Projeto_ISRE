@@ -33,3 +33,15 @@ FOTOS
  #para verificar as alterações, utilize:
  ifconfig -a
 ```
+
+### Replicação dos passos nas demais VMs
+* No tópico anterior, nós alteramos os endereços estáticos de uma única VM, agora basta replicar os passos do tópico anterior para todas as outras VMs de cada computador.
+> NOTA: Lembre-se que o gateway é o mesmo para todas as VMs, mas o addresses deve ser único, conforme especificado na tabela de Endereçamento IP
+
+### Teste de Conectividade
+* O ```ping``` é um comando responsável por testar a conectividade. Logo, para saber se as configurações forram bem-sucedidas, basta realizar pings entre as VMs:
+```bash
+ ping 192.168.13.50 #da vm1 do pc1 para a vm2 do pc1
+```
+* Faça o mesmo para cada VM de cada computador, inclusive entre a VM2 e a VM1.
+> NOTA: o endereço do ping deve corresponder a Vm que deseja ser acessada.
