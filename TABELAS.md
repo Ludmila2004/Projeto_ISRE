@@ -1,6 +1,6 @@
 # PROJETO DO 2º BIMESTRE - INFRAESTRUTURA E SERVIÇOS DE REDES
 
-## 1) Configurações de hardware utilizada nas máquinas virtuais
+### Tabela 1: Configurações de hardware utilizada nas máquinas virtuais
 ```
 -------------------------------------------------------------------------------------------------------
 |          QTDE. DE MEMÓRIA        |         Nº DE PROCESSADORES         |       ESPAÇO EM DISCO      |   
@@ -9,7 +9,7 @@
 -------------------------------------------------------------------------------------------------------
 ```
 
-### Tabela 1: Definições dos IPs das MVs com a máscara de rede /28 (255.255.255.240).
+### Tabela 2: Definições dos IPs das MVs com a máscara de rede /28 (255.255.255.240).
 ```
 -----------------------------------------------------------------------------------------------
 |          SUBREDES         |         REDE         |       BROADCAST      |      GATEWAY      |
@@ -18,7 +18,7 @@
 -----------------------------------------------------------------------------------------------
 ```
 
-### Tabela 2: Definições de endereços IP das MVs, nomes para hostname, nomes de domínio (FQDN), apelidos (aliases).
+### Tabela 3: Definições de endereços IP das MVs, nomes para hostname, nomes de domínio (FQDN), apelidos (aliases).
 ```
 -------------------------------------------------------------------------------------------------
 |  DESCRICAO  |         IP        |   HOSTNAME  |              FQDN                  |  ALIASE  |
