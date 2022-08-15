@@ -1,11 +1,15 @@
 # Preparação do ambiente para alocar as VMs
 
 ### Acessar o terminal
-* Inicialmente, é necessário acessar o terminal e logar com o usuário ```redes```
+* Inicialmente, é necessário acessar o terminal da máquina e logar com o usuário ```redes``` utilizando o comando:
 ```bash
  su redes
 ```
-> Senha: admin@Lab92
+E a senha:
+```bash
+admin@Lab92
+```
+![login_redes](https://user-images.githubusercontent.com/80183918/184625891-ce6bb0c1-d7bc-44c3-93cd-0494ec2057db.png)
 
 
 ### Criação dos diretórios e subdiretórios
@@ -15,24 +19,25 @@
 > labredes
 * Este será o diretório principal e por isso deve ser criado na raiz ```/```
 ```bash
- cd / #o comando cd é reponsável pelo direcionamento nas pastas
- sudo mkdir labredes #o sudo mkdir serve para criar diretórios e subdiretórios
+ cd / # Ocomando cd é reponsável pelo direcionamento nas pastas
+ sudo mkdir labredes # O sudo mkdir serve para criar diretórios e subdiretórios, nesse caso, dentro do diretório labredes
 ```
 
-> Organização dos diretórios
-* Após criar a pasta ```labredes```, vamos criar os seguintes subdiretórios:
+* Para organizar prosseguir com a organização, após criar a pasta ```labredes```, vamos criar os seguintes subdiretórios:
 ```bash
- sudo mkdir projeto913 #lembre-se de que estamos dentro do diretório labredes
- cd /projeto913 #pois queremos criar os futuros subdiretórios nessa pasta
- sudo mkdir images
- cd /images
- sudo mkdir original
+ sudo mkdir projeto913 # Lembre-se de que estamos dentro do diretório labredes, logo, projeto913 será seu subdiretório 
+ cd /projeto913 # Comando utilizado para entrar no subdiretório projeto913 e criar os futuros subdiretórios nele 
+ sudo mkdir images # Comando para a criação da pasta images dentro de projeto913
+ cd /images # Comando para entrar no subdiretório images
+ sudo mkdir original # Comando para criar o subdiretório original dentro de images
+ ```
  
- #agora, vamos criar os diretórios responsáveis por armazenar as VMs criadas
- cd / #volta para a raiz
- sudo mkdir /labredes/projeto913/VM #estamos usando o caminho absoluto para especificar onde queremos guardar as VMs criadas
- sudo mkdir /labredes/projeto913/913
- sudo mkdir /labredes/projeto913/<student> #o <student> indica que este campo deve ser substituído pelo nome do aluno responsável
+ * Criação dos diretórios responsáveis por armazenar as VMs criadas
+ ```bash
+ cd / # Volta para a raiz
+ sudo mkdir /labredes/projeto913/VM # Comando utilizado para criar a pasta VM dentro de projeto913 e usando o caminho absoluto para especificar onde queremos guardar as VMs criadas
+ sudo mkdir /labredes/projeto913/VM/913 # Comando utilizado para criar a pasta 913 dentro de projeto913
+ sudo mkdir /labredes/projeto913/VM/913/<student> #o <student> indica que este campo deve ser substituído pelo nome do aluno responsável
 ```
 
 * Para verificar a existência dos diretórios criados, basta combinar os comandos ```cd``` e ```ls -la```, este último exibe o que está contido em determinado diretório, como apresentado no exemplo abaixo:
