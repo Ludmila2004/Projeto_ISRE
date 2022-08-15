@@ -38,6 +38,7 @@ Este será o diretório principal e por isso deve ser criado na raiz ```/```
 
  * Listagem para comprovar que todos os diretórios e subdiretórios foram criados:
  
+ ![img4](https://user-images.githubusercontent.com/80183918/184630529-b087c060-9e84-42a3-8abb-ffa3189cf53c.png)
  
  * Criação dos diretórios responsáveis por armazenar as VMs criadas
  ```bash
