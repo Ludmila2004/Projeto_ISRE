@@ -34,6 +34,9 @@ Este será o diretório principal e por isso deve ser criado na raiz ```/```
  cd /images # Comando para entrar no subdiretório images
  sudo mkdir original # Comando para criar o subdiretório original dentro de images
  ```
+ ![img3](https://user-images.githubusercontent.com/80183918/184630201-cd243df9-9fa5-4ca3-b428-7e8a2b497d74.png)
+
+ * Listagem para comprovar que todos os diretórios e subdiretórios foram criados:
  
  
  * Criação dos diretórios responsáveis por armazenar as VMs criadas
