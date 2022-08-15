@@ -56,7 +56,10 @@ Este será o diretório principal e por isso deve ser criado na raiz ```/```
  * Se o arquivo ```ubuntu-server-mini.ova``` não for encontrado no subdiretório mas existir em uma pasta diferente basta copia-lo usando o comando ```sudo cp```:
  ```bash
  sudo cp /labredes/images/original/ubuntu-server-mini.ova /labredes/projeto913/images/original
- #o comando cp irá copiar o arquivo presente no primeiro caminho para o diretório do segundo caminho
+ # O comando cp irá copiar o arquivo presente no primeiro caminho para o diretório do segundo caminho
 ```
  * Por fim, basta verificar se o arquivo foi copiado usando o comando ```ls -la```.
+ 
+ ![img7](https://user-images.githubusercontent.com/80183918/184632848-e818798d-58aa-4935-b778-a750428c68e8.png)
+
  
