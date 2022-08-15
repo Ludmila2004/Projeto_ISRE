@@ -15,8 +15,9 @@ admin@Lab92
 ### Criação dos diretórios e subdiretórios
 * As VMs que iremos criar devem ser armazenadas dentro de diretórios e subdiretórios, a fim de organizar nosso ambiente de trabalho. Para isso devemos criar os seguintes diretórios e subdiretórios:
 
-
-> labredes
+```bash
+labredes
+```
 * Este será o diretório principal e por isso deve ser criado na raiz ```/```
 ```bash
  cd / # Ocomando cd é reponsável pelo direcionamento nas pastas
