@@ -18,13 +18,15 @@ admin@Lab92
 ```bash
 labredes
 ```
-* Este será o diretório principal e por isso deve ser criado na raiz ```/```
+Este será o diretório principal e por isso deve ser criado na raiz ```/```
 ```bash
  cd / # Ocomando cd é reponsável pelo direcionamento nas pastas
  sudo mkdir labredes # O sudo mkdir serve para criar diretórios e subdiretórios, nesse caso, dentro do diretório labredes
+ ls -la # Comando usado para exibir a lista de diretórios da máquina, neste caso, comprovar que o diretório labredes já está criado
 ```
+![Inkedimg2](https://user-images.githubusercontent.com/80183918/184629311-e31af470-a492-4349-af77-94f94b1ea9b1.jpg)
 
-* Para organizar prosseguir com a organização, após criar a pasta ```labredes```, vamos criar os seguintes subdiretórios:
+* Para prosseguir com a organização, após criar a pasta ```labredes```, vamos criar os seguintes subdiretórios:
 ```bash
  sudo mkdir projeto913 # Lembre-se de que estamos dentro do diretório labredes, logo, projeto913 será seu subdiretório 
  cd /projeto913 # Comando utilizado para entrar no subdiretório projeto913 e criar os futuros subdiretórios nele 
@@ -32,6 +34,7 @@ labredes
  cd /images # Comando para entrar no subdiretório images
  sudo mkdir original # Comando para criar o subdiretório original dentro de images
  ```
+ 
  
  * Criação dos diretórios responsáveis por armazenar as VMs criadas
  ```bash
