@@ -45,11 +45,11 @@ Este será o diretório principal e por isso deve ser criado na raiz ```/```
  cd / # Volta para a raiz
  sudo mkdir /labredes/projeto913/VM # Comando utilizado para criar a pasta VM dentro de projeto913 e usando o caminho absoluto para especificar onde queremos guardar as VMs criadas
  sudo mkdir /labredes/projeto913/VM/913 # Comando utilizado para criar a pasta 913 dentro de projeto913
- sudo mkdir /labredes/projeto913/VM/913/<student> #o <student> indica que este campo deve ser substituído pelo nome do aluno responsável
+ sudo mkdir /labredes/projeto913/VM/913/<student> # Comando utilizado para criar a pasta do aluno dentro do subdiretório 913, <student> indica que este campo deve ser substituído pelo nome do aluno responsável
 ```
+![img6](https://user-images.githubusercontent.com/80183918/184631448-d4b1810b-1224-4eb5-afa4-d95234d00961.png)
 
-* Para verificar a existência dos diretórios criados, basta combinar os comandos ```cd``` e ```ls -la```, este último exibe o que está contido em determinado diretório, como apresentado no exemplo abaixo:
-COLOQUEM ALGUMA FIGURA SOBRE ISSO AQUI
+* OBS: Como observado em algumas das imagens acima, para verificar a existência dos diretórios criados, basta combinar os comandos ```cd``` e ```ls -la```
 
 ### Arquivo ubuntu
  * Para que a criação das VMs possa ser realizada, precisamos que haja em ```labredes/projeto913/images/original``` o arquivo ```ubuntu-server-mini.ova```. Para isso, verifique a existencia desse arquivo no subdiretório ```original```.
