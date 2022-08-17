@@ -26,6 +26,7 @@ sudo apt install virtualbox-ext-pack
     ![Inkedimg13](https://user-images.githubusercontent.com/80183918/185110148-8509b712-d0d6-4455-8583-91596a3f038d.jpg)
     
     ![img14](https://user-images.githubusercontent.com/80183918/185110969-419a03e0-40f9-4669-8e8b-1511b12e00c8.png)
+    
 
   
 ### Configuração da rede virtual
