@@ -37,6 +37,12 @@ sudo apt install virtualbox-ext-pack
 ```bash
  sudo apt install net-tools -y
 ```
+
+  ![20220811_085458~2](https://user-images.githubusercontent.com/80183918/185114064-17ba8b8d-88bd-404f-b6bb-b2e5e783cca0.jpg)
+  
+  ![20220811_085629~2](https://user-images.githubusercontent.com/80183918/185114094-ad96a8e4-4086-4e68-94c8-9254915bdea8.jpg)
+
+
 * Após instalar essa ferramenta, basta alterar o arquivo ```yaml```:
 ```bash
  sudo nano /etc/netplan/01-netcfg.yaml
