@@ -16,15 +16,18 @@ sudo apt install virtualbox-ext-pack
  2) Na parte de ORIGEM, é inserido o caminho e o arquivo .ova que será importado. No lado de CONFIGURAÇÕES, é definido o nome da máquina virtual e logo abaixo (em PASTA PADRÃO PARA MÁQUINAS) o caminho do diretório em que as máquinas serão salvas.
  
     ![Inkedimg10](https://user-images.githubusercontent.com/80183918/185105820-5e2b0325-9b95-4e15-a775-a00b0dcc352c.jpg)
-
- 3) Importação sendo efetuada
  
     ![img11](https://user-images.githubusercontent.com/80183918/185108262-51d8d28d-e9f5-4648-86a6-fd51660727fe.png)
 
- 4) Após a importação, a máquina virtual foi criada e prosseguimos selecionando-a e dando início ao processo de clonagem 
+ 3) Após a importação, a máquina virtual foi criada e prosseguimos selecionando-a e dando início ao processo de clonagem. Foi redefinido o nome do clone da máquina virtual e novamente inserido o caminho do diretório onde o clone será armazenado
  
     ![Inkedimg12](https://user-images.githubusercontent.com/80183918/185109484-53bb853e-14a2-475d-918b-d9eb3511d051.jpg)
     
+    ![Inkedimg13](https://user-images.githubusercontent.com/80183918/185110148-8509b712-d0d6-4455-8583-91596a3f038d.jpg)
+    
+    
+   
+ 
     
 
 ### Configuração da rede virtual
