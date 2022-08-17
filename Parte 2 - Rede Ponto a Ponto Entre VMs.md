@@ -71,10 +71,12 @@ sudo apt install virtualbox-ext-pack
 > NOTA: Lembre-se que o gateway é o mesmo para todas as VMs, mas o addresses deve ser único, conforme especificado na tabela de Endereçamento IP
 
 ### Teste de Conectividade
-* O ```ping``` é um comando responsável por testar a conectividade. Logo, para saber se as configurações forram bem-sucedidas, basta realizar pings entre as VMs:
-```bash
- ping 192.168.13.50 #da vm1 do pc1 para a vm2 do pc1
-```
-* SUBSTITUA ESTE COMANDO POR FOTO DE ALGUM PING
-* Faça o mesmo para cada VM de cada computador, inclusive entre a VM2 e a VM1.
+* O ```ping``` é um comando responsável por testar a conectividade. Logo, para saber se as configurações forram bem-sucedidas, basta realizar pings entre as VMs.
+
+* Realizamos os testes de conectividade entre as duas máquinas dos 4 computadores e como comprovação, segue os anexos dos testes entre a VM1 e VM2 do PC4:
+  
+  ![20220811_092026~2](https://user-images.githubusercontent.com/80183918/185121140-63e04534-2ed6-4321-9cd2-a1d3f4b43ce6.jpg)
+  
+  ![20220811_092018~2](https://user-images.githubusercontent.com/80183918/185121175-a3da9260-3591-4e8d-a9ff-06781cd277d4.jpg)
+
 > NOTA: o endereço do ping deve corresponder a VM que deseja ser acessada.
