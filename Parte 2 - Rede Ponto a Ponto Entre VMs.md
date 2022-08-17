@@ -10,7 +10,9 @@ sudo apt install virtualbox-ext-pack
 ### Importação das VMs para dentro do VirtualBox
 
 * Como o objetivo principal deste projeto é conectar 8 máquinas virtuais, precisamos primeiramente importá-las para o VirtualBox, já que possuímos o arquivo ```ubuntu-server-mini.ova```(formato de exportação da VM) de cada uma delas.
- 1) 
+ 1) Arquivo > Importar Appliance
+  ![Inkedimg9](https://user-images.githubusercontent.com/80183918/185103492-6f1d74ac-7414-4bb4-aa27-b5a3c20e6593.jpg)
+ 2) 
 
 ### Configuração da rede virtual
 * As VMs precisar estar conectadas na memsma rede interna, para isso devemos acessar as configurações de cada uma das 8 VMs, acessar a opção Rede e selecionar o mdo ```rede interna```.
