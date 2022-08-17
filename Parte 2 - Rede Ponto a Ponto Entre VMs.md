@@ -48,8 +48,12 @@ sudo apt install virtualbox-ext-pack
  sudo nano /etc/netplan/01-netcfg.yaml
 ```
 
-* O arquivo ```yaml``` já possui algumas linhas preenchidas, no entanto, você deve configurar o endereço estático utilizando o ```addresses``` e o ```gateway4```:
-* FOTO
+  ![20220811_085734~2](https://user-images.githubusercontent.com/80183918/185116210-32492b3c-c9ac-4d7a-9c68-5c17540770ef.jpg)
+
+* O arquivo ```yaml``` já possui algumas linhas preenchidas, no entanto, você deve configurar o endereço estático utilizando o ```addresses``` e o ```gateway4``` (de acordo com o endereço pré-definido para as máquinas que estão na tabela no arquivo READEME.md) e desativando o ```dhcp4```:
+
+  ![20220811_090229~2](https://user-images.githubusercontent.com/80183918/185116226-d71c1684-638e-420a-bbd0-2a70fa25d533.jpg)
+
 > NOTA: Certifique-se de não usar recuo de linhas para realizar a indentação, além de identar corretamente as linhas, pois qualquer erro implicará na invalidação da configuração. Os espaços também devem ter atenção especial.
 * Feito isso, digite ```ctrlX```, seguido por ```y``` e ```enter```, para salvar as alterações.
 * Por fim, basta digitar o seguinte comando para aplicar as alterações na interface de rede:
@@ -58,6 +62,9 @@ sudo apt install virtualbox-ext-pack
  #para verificar as alterações, utilize:
  ifconfig -a
 ```
+
+  ![20220811_090336~2](https://user-images.githubusercontent.com/80183918/185116236-ba4f8b41-5dce-4a73-9680-eec82f8dcfe3.jpg)
+
 
 ### Replicação dos passos nas demais VMs
 * No tópico anterior, nós alteramos os endereços estáticos de uma única VM, agora basta replicar os passos do tópico anterior para todas as outras VMs de cada computador.
