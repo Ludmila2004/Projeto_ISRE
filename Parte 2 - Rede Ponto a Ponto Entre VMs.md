@@ -21,8 +21,10 @@ sudo apt install virtualbox-ext-pack
  
     ![img11](https://user-images.githubusercontent.com/80183918/185108262-51d8d28d-e9f5-4648-86a6-fd51660727fe.png)
 
- 4) ![Inkedimg12](https://user-images.githubusercontent.com/80183918/185108609-d88ffa21-26cd-4c3a-860e-2298e9682784.jpg)
- 5) 
+ 4) Máquina virtual criada
+    ![img16](https://user-images.githubusercontent.com/80183918/185109041-b7026fc5-b922-407e-aaea-69950d5d1561.png)
+
+ 5) Seleciona a máquina posteriormente criada e inicia o processo de clonagem
 ### Configuração da rede virtual
 * As VMs precisar estar conectadas na memsma rede interna, para isso devemos acessar as configurações de cada uma das 8 VMs, acessar a opção Rede e selecionar o mdo ```rede interna```.
 * Agora, basta definir o nome da rede interna de cada uma delas como ```labredes```. 
