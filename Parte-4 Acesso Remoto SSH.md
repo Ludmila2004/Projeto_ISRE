@@ -42,6 +42,6 @@ Volte com as antigas configurações das VM's, colocando-as em Modo Bridge e tir
 ### Acessando as VM's
 Para testar as conectividades das VM's, basta o usuário seguir o modelo de comando abaixo, apenas colocando seu ```endereço IP``` e o nome de seu ```user```
 ```bash
-ssh administrador@
+ssh administrador@192.168.13.49
 ```
 Faça esse processo em ambas as Máquinas Virtuais de todos os computadores a serem posteriormente conectados.
