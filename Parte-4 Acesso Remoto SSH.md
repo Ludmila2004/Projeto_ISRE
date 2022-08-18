@@ -25,8 +25,23 @@ systemctl status ssh
 Após esses passos é só esperar um tempinho para que haja uma instalação bem sucedida.
 
 ### Verificar o Firewall
- Use o comando 
+ Para verificar se o Firewall está ativado e ativá-lo no UFW da ```ubuntu```, use:
+ 
 ```bash
 sudo ufw status
+sudo ufw allow ssh
 ```
+Caso não esteja, é necessário que o usuário ative-o
 
+```bash
+sudo ufw enable
+```
+### Reconfigurando
+Volte com as antigas configurações das VM's, colocando-as em Modo Bridge e tirando os comentários anteriormente adicionados.
+
+### Acessando as VM's
+Para testar as conectividades das VM's, basta o usuário seguir o modelo de comando abaixo, apenas colocando seu ```endereço IP``` e o nome de seu ```user```
+```bash
+ssh administrador@
+```
+Faça esse processo em ambas as Máquinas Virtuais de todos os computadores a serem posteriormente conectados.
