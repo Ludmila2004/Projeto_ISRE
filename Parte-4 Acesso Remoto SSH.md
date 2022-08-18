@@ -22,5 +22,11 @@ Após usar esse comando, faz-se necessário verificar se realmente houve a insta
 ```bash
 systemctl status ssh
 ```
+Após esses passos é só esperar um tempinho para que haja uma instalação bem sucedida.
 
+### Verificar o Firewall
+ Use o comando 
+```bash
+sudo ufw status
+```
 
