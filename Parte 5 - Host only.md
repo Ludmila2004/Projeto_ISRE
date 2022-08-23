@@ -27,7 +27,7 @@
   Como o foco desta nossa aula é se conectar a uma VM utilizando o terminal, então é imprescindível que o ```endereço IP``` e o ```endereço MAC``` da nossa VM seja exclusivo, para que não haja conflito no momento de realizar a conexão. Daí vem o conceito de ```Host-Only```. 
   * Para isso, retorne ao seu ```VirtualBox```, selecione a sua VM e clique na opção ```Rede```.
   * Após, adicione um novo ```Adaptador de Rede``` à VM, selecionando a opção ```Adaptador 2```.
-  * Feito isso, ```habilite a placa de rede```, conecte a VM no modo ```Placa de rede exclusiva de hospedeiro (host-only), altere o nome do adaptador para ```enp0s8```, altere o ```endereço MAC``` e salve as alterações clicando em ```OK```.
+  * Feito isso, ```habilite a placa de rede```, conecte a VM no modo ```Placa de rede exclusiva de hospedeiro (host-only)```, altere o nome do adaptador para ```enp0s8```, altere o ```endereço MAC``` e salve as alterações clicando em  ```OK```.
   > A imagem abaixo apresenta quais campos devem ser alterados/pressionados, seguindo a sequência lógica que foi descrita.
   * FOTO
   
