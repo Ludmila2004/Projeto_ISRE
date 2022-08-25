@@ -1,7 +1,5 @@
 <h1 align="left"> Configuração estática de nomes</h1>
 
-Configuração estática de Nomes
-
 > NOTA: -Configurar um serviço de nomes.
         - Configurar /etc/hosts.
 
