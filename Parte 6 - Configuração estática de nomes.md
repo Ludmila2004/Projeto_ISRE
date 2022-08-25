@@ -2,7 +2,7 @@
 
 > NOTA: -Configurar um serviço de nomes.
         - Configurar /etc/hosts.
-
+k
 ## Login da VM ubuntu server
 
 * Usuário da VM: administrador.
