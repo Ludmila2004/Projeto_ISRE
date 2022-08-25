@@ -50,8 +50,8 @@ $ sudo netplan apply;
 $ ifconfig -a.
 ```
 5. Faça a configuração das VMs nas próximas 7 Vms restantes.
-### Montando a rede LAN Ponto a Ponto com cabeamento.
-7. Conecte o cabo de rede entre os quatro PCs.
+6. Montando a rede LAN Ponto a Ponto com cabeamento.
+* Conecte o cabo de rede entre os quatro PCs.
 8. Configuração da rede brigde do VirtualBox nos dois PCs e nas duas VMs.
 9. Configuração das NICs como modo “bridge”.
 10. Testar a conectividade entre as VMs com o comando ping.
