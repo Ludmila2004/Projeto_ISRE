@@ -1,4 +1,4 @@
-<h1 align="left"> Configuração estática de nomes's</h1>
+<h1 align="left"> Configuração estática de nomes'</h1>
 
 Configuração estática de Nomes
 
