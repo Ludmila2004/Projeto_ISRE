@@ -6,6 +6,8 @@ De primeira instância, vale lembrar que nesse momento do processo a tabela de e
 
 1. Nas configurações das VM's mude o Adaptador1 para NAT
 
+   ![20220811_105708~3](https://user-images.githubusercontent.com/80183918/186547690-92ab2436-9b8b-450a-94ce-34d9ffdd82b6.jpg)
+
 
 2. E comente com "#" as linhas de endereço IP estático do (gateway e endereço IP) e ative o DHCP nas configurações do Netplan
 
