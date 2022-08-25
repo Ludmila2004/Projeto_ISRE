@@ -2,7 +2,7 @@
 
 De primeira instância, vale lembrar que nesse momento do processo a tabela de endereços anteriormente já feita irá ser de extrema importância. 
 
-### Antes de tudo...
+## Antes de tudo...
 
 1. Nas configurações das VM's mude o Adaptador1 para NAT
 
@@ -27,22 +27,29 @@ De primeira instância, vale lembrar que nesse momento do processo a tabela de e
 
 ![20220811_113926~2](https://user-images.githubusercontent.com/80183918/186549359-f4febe16-1fe5-46ce-9e8b-132abf98eb38.jpg)
 
-### Instalação do SSH
+## Instalação do SSH
 
-Para instalar, basta usar os comandos:
+Para instalar, basta usar o comandos:
 
 ```bash
 sudo apt-get install openssh-server
 ```
 
-
-Após usar esse comando, faz-se necessário verificar se realmente houve a instalação através do seguinte comando
+E para verificar se realmente houve a instalação utiliza o comando:
 ```bash
 systemctl status ssh
 ```
 Após esses passos é só esperar um tempinho para que haja uma instalação bem sucedida.
 
-### Verificar o Firewall
+![20220811_114044](https://user-images.githubusercontent.com/80183918/186551722-aadb229c-4add-4616-ba35-1dc72c157b65.jpg)
+
+## Verificação das portas do sistema
+
+Faz-se necessário uma verificação das conexões TCP na porta 22, de forma que o status que apareca seja como "LISTENING"
+
+
+
+## Verificar o Firewall
  Para verificar se o Firewall está ativado e ativá-lo no UFW da ```ubuntu```, use:
  
 ```bash
@@ -54,6 +61,9 @@ Caso não esteja, é necessário que o usuário ative-o
 ```bash
 sudo ufw enable
 ```
+
+![20220811_123041~2](https://user-images.githubusercontent.com/80183918/186551745-fbcdc617-0fdb-4ad0-9bb5-92f95bc92983.jpg)
+
 ### Reconfigurando
 Volte com as antigas configurações das VM's, colocando-as em Modo Bridge e tirando os comentários anteriormente adicionados.
 
