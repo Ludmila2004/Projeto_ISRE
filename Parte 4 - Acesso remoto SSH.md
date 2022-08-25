@@ -7,8 +7,7 @@ De primeira instância, vale lembrar que nesse momento do processo a tabela de e
 1. Nas configurações das VM's mude o Adaptador1 para NAT
 
 
-2. E comente as linhas com "#" do Netplan(gateway e endereço IP)
-
+2. E comente com "#" as linhas de endereço IP estático do (gateway e endereço IP) e ative o DHCP nas configurações do Netplan
 
 ### Instalação do SSH
 
