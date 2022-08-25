@@ -4,9 +4,9 @@
 
  ## Conexão ponto a ponto
  
-1.Abrir o terminal nos 4 PCs e, assim verifique as configurações de rede;
-2.A configuração de interfaces de rede Ubuntu no Neplan;
-3.Para encontramos esse arquivo digitamos: 
+1. Abrir o terminal nos 4 PCs e, assim verifique as configurações de rede;
+2. A configuração de interfaces de rede Ubuntu no Neplan;
+3. Para encontramos esse arquivo digitamos: 
 ```bash
 fconfig -a
 cd /etc/netplan
