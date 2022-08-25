@@ -16,7 +16,7 @@ cat /etc/netplan/01-network-manager-all.yaml
 ## Criando uma rede ponto a ponto com as 8 máquinas virtuais
 * Criar uma rede ponto a ponto entre os 4 PCs, mas juntando uma LAN com 2 VMs dentro do VirtualBox de cada PC;
 * É necessário que as VMs e as interfaces das VMs sejam configuradas;
-* Fazer login nas VMs C
+* Fazer login nas VMs.
 ```bash
 Usuário da VM: administrador.
 Senha da VM: adminifal.
