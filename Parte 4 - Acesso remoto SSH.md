@@ -15,15 +15,13 @@ De primeira instância, vale lembrar que nesse momento do processo a tabela de e
 
 ## Confirmando que as VMs estão tendo acesso à internet
    
- 1. Primeiramente, foi feito uma atualização das definições e versões de todos os pacotes e bibliotecas do repositório ubuntu, através do comando:
- Esse comando também deve ser usado após uma nova instalação. Atualiza o banco de dados e como foi anteriormente citado, informa a existência de outros pacotes disponíveis.
+ 1. Primeiramente, foi feito uma atualização das definições e versões de todos os pacotes e bibliotecas do repositório ubuntu. Esse comando também deve ser usado após uma nova instalação. Atualiza o banco de dados e como foi anteriormente citado, informa a existência de outros pacotes disponíveis. Usando o comando:
  
    ```bash
    sudo apt update
    ```
    
-2. Após a atualização anterior, é executada uma nova atualização a fim de atribuir aos novos pacotes, suas novas definições e versões, através do comando:
-Depois que atualiza o banco de dados, agora atualiza os pacotes instalados.
+2. Após a atualização anterior, é executada uma nova atualização a fim de atribuir aos novos pacotes, suas novas definições e versões. Depois que atualiza o banco de dados, agora atualiza os pacotes instalados. Para isso:
 
   ```bash
   sudo apt upgrade -y
