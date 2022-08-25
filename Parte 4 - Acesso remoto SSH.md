@@ -1,4 +1,5 @@
 <h1 align="left">Acesso Remoto SSH</h1>
+O SSH(Secure Shell) é um protocolo para acessar uma máquina remota em segurança, sendo possível a execução de uma linha de comando, transferência de arquivos e criar redes privadas seguras. A vantagem dele é a segurança e simplicidade.
 
 De primeira instância, vale lembrar que nesse momento do processo a tabela de endereços anteriormente já feita irá ser de extrema importância. 
 
@@ -15,27 +16,31 @@ De primeira instância, vale lembrar que nesse momento do processo a tabela de e
 ## Confirmando que as VMs estão tendo acesso à internet
    
  1. Primeiramente, foi feito uma atualização das definições e versões de todos os pacotes e bibliotecas do repositório ubuntu, através do comando:
+ Esse comando também deve ser usado após uma nova instalação. Atualiza o banco de dados e como foi anteriormente citado, informa a existência de outros pacotes disponíveis.
  
    ```bash
    sudo apt update
    ```
+   
 2. Após a atualização anterior, é executada uma nova atualização a fim de atribuir aos novos pacotes, suas novas definições e versões, através do comando:
+Depois que atualiza o banco de dados, agora atualiza os pacotes instalados.
 
   ```bash
   sudo apt upgrade -y
   ```
-
+  
 ![20220811_113926~2](https://user-images.githubusercontent.com/80183918/186549359-f4febe16-1fe5-46ce-9e8b-132abf98eb38.jpg)
 
 ## Instalação do SSH
 
-Para instalar, basta usar o comandos:
+Normalmente, não vem com esse recurso ativo, então é necessário acessá-lo instalando o pacote do servidor OpenSSH. Para ativá-lo, escreva o comando:
 
 ```bash
 sudo apt-get install openssh-server
 ```
+Quando instalado, ele deve ser iniciado automaticamente.
+Para verificar se realmente houve a instalação utiliza o comando:
 
-E para verificar se realmente houve a instalação utiliza o comando:
 ```bash
 systemctl status ssh
 ```
@@ -47,6 +52,9 @@ Após esses passos é só esperar um tempinho para que haja uma instalação bem
 
 Faz-se necessário uma verificação das conexões TCP na porta 22, de forma que o status que apareca seja como "LISTENING"
 
+```bash
+netstat -an | grep LISTEN. 
+```
 ![20220811_123041~2](https://user-images.githubusercontent.com/80183918/186551745-fbcdc617-0fdb-4ad0-9bb5-92f95bc92983.jpg)
 
 ## Verificar o Firewall
@@ -56,6 +64,7 @@ Faz-se necessário uma verificação das conexões TCP na porta 22, de forma que
 sudo ufw status
 sudo ufw allow ssh
 ```
+
 Caso não esteja, é necessário que o usuário ative-o
 
 ```bash
