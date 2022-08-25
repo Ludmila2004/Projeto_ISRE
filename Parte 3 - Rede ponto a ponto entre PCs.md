@@ -8,7 +8,7 @@
 * A configuração de interfaces de rede Ubuntu no Neplan;
 * Para encontramos esse arquivo digitamos: 
 ```bash
-fconfig -a
+ifconfig -a
 cd /etc/netplan
 ls -la 
 cat /etc/netplan/01-network-manager-all.yaml
