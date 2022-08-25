@@ -28,8 +28,9 @@ Senha da VM: adminifal.
 ifconfig -a
 ls -la /etc/netplan
 cat /etc/netplan/01-netcfg.yaml
+       ```
 3. Verifique se o nome do arquivo está correto no seu servidor.
-      ```
+     
 
 
 
