@@ -1,8 +1,8 @@
 <h1 align="left"> Configuração estática de nomes</h1>
 
 > NOTA: -Configurar um serviço de nomes.
-        - Configurar /etc/hosts.
-k
+> - Configurar /etc/hosts.
+
 ## Login da VM ubuntu server
 
 * Usuário da VM: administrador.
