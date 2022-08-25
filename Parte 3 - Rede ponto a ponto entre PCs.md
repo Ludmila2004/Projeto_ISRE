@@ -20,5 +20,16 @@ cat /etc/netplan/01-network-manager-all.yaml
 ```bash
 Usuário da VM: administrador.
 Senha da VM: adminifal.
+   ```
+## Configuração estática de endereço IP na interface de rede
+1. Configurar os IPs das interfaces de rede·
+2. Para configurar as interfaces de rede o Ubuntu utiliza um arquivo YAML e este arquivo se encontra na pasta /etc/netplan/. Para isso digite:
+```bash
+ifconfig -a
+ls -la /etc/netplan
+cat /etc/netplan/01-netcfg.yaml
+3. Verifique se o nome do arquivo está correto no seu servidor.
+      ```
+
 
 
