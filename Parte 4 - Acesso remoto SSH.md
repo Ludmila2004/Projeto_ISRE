@@ -56,14 +56,16 @@ netstat -an | grep LISTEN.
 ![20220811_123041~2](https://user-images.githubusercontent.com/80183918/186551745-fbcdc617-0fdb-4ad0-9bb5-92f95bc92983.jpg)
 
 ## Verificar o Firewall
- Para verificar se o Firewall está ativado e ativá-lo no UFW da ```ubuntu```, use:
- 
+Para ativar o ssh no firewall UFW do ubuntu, use:
+```bash
+sudo ufw allow ssh.
+```
+Você poderá verificar o status de ativação do firewall UFW. Para isso, temos que usar o comando sudo simples.
 ```bash
 sudo ufw status
-sudo ufw allow ssh
 ```
 
-Caso não esteja, é necessário que o usuário ative-o
+Após o uso do comando citado acima, a saída irá dizer se o firewall UFW está atualmente desabilitado ou inativo. Para habilitá-lo  e deixar pronto para uso é só utilizar:
 
 ```bash
 sudo ufw enable
@@ -75,7 +77,8 @@ sudo ufw enable
 Volte com as antigas configurações das VM's, colocando-as em Modo Bridge e tirando os comentários anteriormente adicionados.
 
 ### Acessando as VM's
-Para testar as conectividades das VM's, basta o usuário seguir o modelo de comando abaixo, apenas colocando seu ```endereço IP``` e o nome de seu ```user```
+Para testar as conectividades das VM's, basta o usuário seguir o modelo de comando abaixo, apenas colocando seu ```endereço IP``` e o nome de seu ```user```. Tem que ter o SSH instalado e ativado na outra máquina, caso contrário, não irá funcionar.
+
 ```bash
 ssh administrador@192.168.13.49
 ```
