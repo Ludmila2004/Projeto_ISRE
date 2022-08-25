@@ -47,7 +47,7 @@ Após esses passos é só esperar um tempinho para que haja uma instalação bem
 
 Faz-se necessário uma verificação das conexões TCP na porta 22, de forma que o status que apareca seja como "LISTENING"
 
-
+![20220811_123041~2](https://user-images.githubusercontent.com/80183918/186551745-fbcdc617-0fdb-4ad0-9bb5-92f95bc92983.jpg)
 
 ## Verificar o Firewall
  Para verificar se o Firewall está ativado e ativá-lo no UFW da ```ubuntu```, use:
@@ -62,7 +62,7 @@ Caso não esteja, é necessário que o usuário ative-o
 sudo ufw enable
 ```
 
-![20220811_123041~2](https://user-images.githubusercontent.com/80183918/186551745-fbcdc617-0fdb-4ad0-9bb5-92f95bc92983.jpg)
+![20220811_123149~2](https://user-images.githubusercontent.com/80183918/186553568-9aef9217-9a49-404a-b259-cce85f811180.jpg)
 
 ### Reconfigurando
 Volte com as antigas configurações das VM's, colocando-as em Modo Bridge e tirando os comentários anteriormente adicionados.
