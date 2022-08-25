@@ -46,7 +46,7 @@ $ sudo nano /etc/netplan/01-netcfg.yaml
 ifconfig -a.
 ```
 ```bash
-$ sudo netplan apply;
+$ sudo netplan apply.
 $ ifconfig -a.
 ```
  Faça a configuração das VMs nas próximas 7 Vms restantes.
