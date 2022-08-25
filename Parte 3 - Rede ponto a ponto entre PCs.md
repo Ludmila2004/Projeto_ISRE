@@ -33,6 +33,33 @@ cat /etc/netplan/01-netcfg.yaml
 3. Verifique se o nome do arquivo está correto no seu servidor.
    
 ## Configuração da VMs nos PCs
+Na VM - Lab01 do PC1E assim, faça o mesmo para pingar as outras duas máquinas
+
+1. Configure o IP.
+2. Edite o arquivo 01-netcfg.yaml.
+```bash
+$ sudo nano /etc/netplan/01-netcfg.yaml
+```
+3.Adicione as linhas para a configuração estática do IP para configurar o IP para 192.168.13.48/28
+4.Depois de salvar o arquivo é necessário aplicar as configurações, com o netplan apply e após veja a configuração das interfaces com *ifconfig -a.
+```bash
+$ sudo netplan apply;
+$ ifconfig -a.
+```
+5. Faça a configuração das VMs nas próximas 7 Vms restantes.
+6. Montando a rede LAN Ponto a Ponto com cabeamento.
+7. Conecte o cabo de rede entre os quatro PCs.
+8. Configuração da rede brigde do VirtualBox nos dois PCs e nas duas VMs.
+9. Configuração das NICs como modo “bridge”.
+10. Testar a conectividade entre as VMs com o comando ping.
+11. Ping da VM1-PC1 para VM2-PC2
+    Ping da VM1-PC1 para VM2-PC2
+12.E assim, faça o mesmo para pingar as outras duas máquinas.
+
+
+
+
+
 
      
 
