@@ -19,7 +19,7 @@ De primeira instância, vale lembrar que nesse momento do processo a tabela de e
    ```bash
    sudo apt update
    ```
-2. Após a atualização anterior, é executado uma nova atuliazação a fim de atribuir aos novos pacotes, suas novas definições e versões, através do comando:
+2. Após a atualização anterior, é executada uma nova atualização a fim de atribuir aos novos pacotes, suas novas definições e versões, através do comando:
 
   ```bash
   sudo apt upgrade -y
