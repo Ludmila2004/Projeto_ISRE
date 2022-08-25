@@ -58,8 +58,8 @@ $ ifconfig -a.
 ```bash
     Ping da VM1-PC1 para VM2-PC2
     Ping da VM1-PC1 para VM2-PC2
-    ```
-* E assim, faça o mesmo para pingar as outras duas máquinas.
+```
+> NOTA: E assim, faça o mesmo para pingar as outras duas máquinas.
 
 
 
