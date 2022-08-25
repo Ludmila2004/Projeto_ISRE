@@ -1,4 +1,4 @@
-<h1 align="left"> Configuração estática de nomes'</h1>
+<h1 align="left"> Configuração estática de nomes</h1>
 
 Configuração estática de Nomes
 
@@ -21,6 +21,6 @@ sudo nano /etc/hosts
 ## Acessando uma VM remotamente
 
 
-* ssh administrador@192.168.13.48/28
+* ssh administrador@192.168.13.56/28
 
 
