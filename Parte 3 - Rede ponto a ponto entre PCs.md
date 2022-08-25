@@ -43,7 +43,7 @@ $ sudo nano /etc/netplan/01-netcfg.yaml
 * Adicione as linhas para a configuração estática do IP para configurar o IP para 192.168.13.48/28
 * Depois de salvar o arquivo é necessário aplicar as configurações, com o netplan apply e após veja a configuração das interfaces com:
 ```bash
-   ifconfig -a.
+ifconfig -a.
 ```
 ```bash
 $ sudo netplan apply;
