@@ -13,3 +13,4 @@ cd /etc/netplan
 ls -la 
 cat /etc/netplan/01-network-manager-all.yaml
    ```
+## Criando uma rede ponto a ponto com as 8 máquinas virtuais
