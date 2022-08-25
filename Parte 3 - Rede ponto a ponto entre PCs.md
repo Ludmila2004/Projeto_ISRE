@@ -18,7 +18,7 @@ cat /etc/netplan/01-network-manager-all.yaml
 2. É necessário que as VMs e as interfaces das VMs sejam configuradas;
 3. Fazer login nas VMs 
 ```bash
-Usuário da VM: administrador;
+Usuário da VM: administrador.
 Senha da VM: adminifal.
 
 
