@@ -12,6 +12,21 @@ De primeira instância, vale lembrar que nesse momento do processo a tabela de e
 
    ![20220811_112925](https://user-images.githubusercontent.com/80183918/186547851-f46b9f8e-9d28-4dc6-b88a-13b600fca3a4.jpg)
 
+## Confirmando que as VMs estão tendo acesso à internet
+   
+ 1. Primeiramente, foi feito uma atualização das definições e versões de todos os pacotes e bibliotecas do repositório ubuntu, através do comando:
+ 
+   ```bash
+   sudo apt update
+   ```
+2. Após a atualização anterior, é executado uma nova atuliazação a fim de atribuir aos novos pacotes, suas novas definições e versões, através do comando:
+
+  ```bash
+  sudo apt upgrade -y
+  ```
+
+![20220811_113926~2](https://user-images.githubusercontent.com/80183918/186549359-f4febe16-1fe5-46ce-9e8b-132abf98eb38.jpg)
+
 ### Instalação do SSH
 
 Para instalar, basta usar os comandos:
@@ -19,6 +34,7 @@ Para instalar, basta usar os comandos:
 ```bash
 sudo apt-get install openssh-server
 ```
+
 
 Após usar esse comando, faz-se necessário verificar se realmente houve a instalação através do seguinte comando
 ```bash
