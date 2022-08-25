@@ -48,7 +48,7 @@ Após esses passos é só esperar um tempinho para que haja uma instalação bem
 
 ## Verificação das portas do sistema
 
-Faz-se necessário uma verificação das conexões TCP na porta 22, de forma que o status que apareca seja como "LISTENING"
+Faz-se necessário uma verificação das conexões TCP na porta 22, de forma que o status que apareca seja como "LISTENING". Esse comando exibe a tabela de roteamento para todos os endereços IP vinculados ao servidor:
 
 ```bash
 netstat -an | grep LISTEN. 
