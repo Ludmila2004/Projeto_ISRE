@@ -8,8 +8,9 @@ De primeira instância, vale lembrar que nesse momento do processo a tabela de e
 
    ![20220811_105708~3](https://user-images.githubusercontent.com/80183918/186547690-92ab2436-9b8b-450a-94ce-34d9ffdd82b6.jpg)
 
-
 2. E comente com "#" as linhas de endereço IP estático do (gateway e endereço IP) e ative o DHCP nas configurações do Netplan
+
+   ![20220811_112925](https://user-images.githubusercontent.com/80183918/186547851-f46b9f8e-9d28-4dc6-b88a-13b600fca3a4.jpg)
 
 ### Instalação do SSH
 
