@@ -1,8 +1,8 @@
-<h3>INSTITUTO FEDERAL DE ALAGOAS - CAMPUS ARAPIRACA<br>Disciplina: Infraestrutura e Serviços de Rede<br>Turma: 913 - Informática<br>Grupo 4: Giovanna Stephany Souza da Silva, Júlia Vitória Marques Góis, José Cristiano Costa Sobrinho, Ludmila Barbosa da Silva</h3>
+<b>Instituto Federal de Alagoas - Campus Arapiraca<br>Disciplina: Infraestrutura e Serviços de Rede<br>Turma: 913 - Informática<br>Grupo 4: Giovanna Stephany Souza da Silva, Júlia Vitória Marques Góis, José Cristiano Costa Sobrinho, Ludmila Barbosa da Silva<b>
 
-### PROJETO DO 2º BIMESTRE - INFRAESTRUTURA E SERVIÇOS DE REDES
+<p align="center">Projeto do 2° bimestre - Ambiente de rede contendo 8 máquinas virtuais com o S.O Ubuntu Server<p>
 
-### Tabela 1: Configurações de hardware utilizada nas máquinas virtuais
+* Tabela 1: Configurações de hardware utilizada nas máquinas virtuais
 ```
 -------------------------------------------------------------------------------------------------------
 |          QTDE. DE MEMÓRIA        |         Nº DE PROCESSADORES         |       ESPAÇO EM DISCO      |   
@@ -11,7 +11,7 @@
 -------------------------------------------------------------------------------------------------------
 ```
 
-### Tabela 2: Definições dos IPs das MVs com a máscara de rede /28 (255.255.255.240).
+* Tabela 2: Definições dos IPs das MVs com a máscara de rede /28 (255.255.255.240).
 ```
 -----------------------------------------------------------------------------------------------
 |          SUBREDES         |         REDE         |       BROADCAST      |      GATEWAY      |
@@ -20,7 +20,7 @@
 -----------------------------------------------------------------------------------------------
 ```
 
-### Tabela 3: Definições de endereços IP das MVs, nomes para hostname, nomes de domínio (FQDN), apelidos (aliases).
+* Tabela 3: Definições de endereços IP das MVs, nomes para hostname, nomes de domínio (FQDN), apelidos (aliases).
 ```
 -------------------------------------------------------------------------------------------------
 |  DESCRICAO  |         IP        |   HOSTNAME  |              FQDN                  |  ALIASE  |
