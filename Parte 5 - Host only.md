@@ -28,7 +28,8 @@
   ```bash
     ifconfig-a #você saberá se a configuração foi bem sucedida se aparecer a interface: vxboxnet0
   ```
-  
+  ![20220825_073848](https://user-images.githubusercontent.com/80183918/186930756-29a9e41d-658b-4f54-a69d-9daed7b82c24.jpeg)
+
   ### Aplicação do Host-Only
   Como o foco desta nossa aula é se conectar a uma VM utilizando o terminal, então é imprescindível que o ```endereço IP``` e o ```endereço MAC``` da nossa VM seja exclusivo, para que não haja conflito no momento de realizar a conexão. Daí vem o conceito de ```Host-Only```. 
   * Para isso, retorne ao seu ```VirtualBox```, selecione a sua VM e clique na opção ```Rede```.
