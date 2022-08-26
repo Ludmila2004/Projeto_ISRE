@@ -32,8 +32,4 @@ sudo nano /etc/hosts
 
 >NOTA: Faça isso em todas as 8 VMs!!
 
-## Acessando uma VM remotamente
-
-* ssh administrador@192.168.13.56/28
-
 
