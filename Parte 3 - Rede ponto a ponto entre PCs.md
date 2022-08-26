@@ -4,15 +4,13 @@
 
  ## Conexão ponto a ponto
  
-* Abrir o terminal nos 4 PCs e, assim verifique as configurações de rede;
-* A configuração de interfaces de rede Ubuntu no Neplan;
-* Para encontramos esse arquivo digitamos: 
+* Antes de iniciar, é preciso realizar uma verificação da existência do arquivo ```01-network-manager-all.yaml``` dentro da pasta ```/etc/netplan``` e confirmar se no arquivo de configuração, a entrada apresentada é ```renderer:NetworkManager```, caso a que estiver sendo apresentada for ```renderer:networkd```, um erro do tipo ```Wired Unmanaged error``` aparecerá. Para efetuarmos essa verificação, executa-se os seguintes comandos:
 ```bash
 ifconfig -a
 cd /etc/netplan
 ls -la 
 cat /etc/netplan/01-network-manager-all.yaml
-   ```
+```
 ## Criando uma rede ponto a ponto com as 8 máquinas virtuais
 * Criar uma rede ponto a ponto entre os 4 PCs, mas juntando uma LAN com 2 VMs dentro do VirtualBox de cada PC;
 * É necessário que as VMs e as interfaces das VMs sejam configuradas;
