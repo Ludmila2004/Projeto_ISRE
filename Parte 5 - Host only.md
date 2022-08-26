@@ -68,5 +68,6 @@
    ```bash
     ssh administrador@192.168.13.53
   ```
-  * FOTO
+  ![20220825_110531](https://user-images.githubusercontent.com/80183918/186936546-321f01eb-9384-45f9-a064-084740679148.jpeg)
+  
   > Note que no comando acima retratamos a conexão em apenas uma VM, mas você pode e deve fazer isso em todas as outras, para testar se as configurações foram feitas com sucesso. 
