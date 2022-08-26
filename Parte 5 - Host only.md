@@ -36,7 +36,8 @@
   * Após, adicione um novo ```Adaptador de Rede``` à VM, selecionando a opção ```Adaptador 2```.
   * Feito isso, ```habilite a placa de rede```, conecte a VM no modo ```Placa de rede exclusiva de hospedeiro (host-only)```, altere o nome do adaptador para ```enp0s8```, altere o ```endereço MAC``` e salve as alterações clicando em  ```OK```.
   > A imagem abaixo apresenta quais campos devem ser alterados/pressionados, seguindo a sequência lógica que foi descrita.
-  * FOTO
+  
+  ![20220825_074108](https://user-images.githubusercontent.com/80183918/186934710-c9cab17f-1777-4dbe-9f57-b48ffb3e6d0e.jpeg)
   
   ### Ativação das configuração da interface
   * Antes de tudo, verifique a existência das interfaces pelo ```terminal da VM```, usando ```ifconfig-a```.
