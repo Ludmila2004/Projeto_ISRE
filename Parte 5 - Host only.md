@@ -10,13 +10,19 @@
 ## Passo 2 - Interface de comunicação
   Após se conectar às VM's, precisamos configurar uma interface que possibilite a comunicação entre ela e o PC, isso deve ser feito pois queremos nos comunicar com a VM utilizando o terminal de um computador, que nesse caso será o nosso ```Host```.
   * Dentro do VirtualBox, clique em ```Arquivo``` e logo após em ```Host Network Manager```, seguido por ```Adaptador```. 
-  * FOTO
+    
+    ![20220825_073641](https://user-images.githubusercontent.com/80183918/186929348-cd5c3c49-8fc5-4692-b160-f9d6fbc375ae.jpg)
+    
+    ![cc0f81f0-4cd1-4b2e-b21a-853e841b025d](https://user-images.githubusercontent.com/80183918/186929827-636c8f07-2473-420c-827e-42f53df66dcc.jpeg)
+  
   > É importante que os valores dos campos estejam iguais aos da imagem acima. 
   
   ### Configuração do servidor DHCP 
   Ainda dentro do ```Network Manager```, selecione o campo ```Servidor DHCP```.
   * Certifique-se de habilitar o servidor DHCP, clicando em ```Habilitar Servidor```.
-  * FOTO
+  
+  ![20220825_073733](https://user-images.githubusercontent.com/80183918/186930056-e1c12c2c-1afa-4636-a635-cbb09a147034.jpeg)
+  
   * Após verificar se os campos estão preenchidos como mostrador na imagem acima, aplique as configurações clicando em ```Aplicar```. 
   > Pelo ```terminal do PC```, verifique se a configuração foi realizada com sucesso utilizando o comando:
   ```bash
