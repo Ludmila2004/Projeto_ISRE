@@ -39,9 +39,7 @@ Após realizar as verificações anteriores, especificamente a existência do ar
 ```bash
 $ sudo nano /etc/netplan/01-netcfg.yaml
 ```
-
-  FOTO do antes
-  FOTO do depois
+![20220811_090710](https://user-images.githubusercontent.com/80183918/186921916-b8bf0c49-6ae0-4668-a43f-42e6c07d34b0.jpg)
   
 * Deve ser Adicionado as linhas para a configuração estática do IP foi definido anteriormente, sendo um específico para cada máquina virtual e a desativação do dhcp, visto que não se quer que um endereço seja gerado de forma dinâmica. Para essa edição ser realizada, a série de comandos a ser feitas será:
 
