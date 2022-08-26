@@ -82,4 +82,9 @@ Para testar as conectividades das VM's, basta o usuário seguir o modelo de coma
 ```bash
 ssh administrador@192.168.13.49
 ```
+Alguns testes de conectividade através do SSH entre os PCs 2 e 4:
+
+![20220811_103625](https://user-images.githubusercontent.com/80183918/186794517-d8bdbe3f-eae1-44b7-afab-6bea8d812061.jpg)
+![20220811_103616](https://user-images.githubusercontent.com/80183918/186794519-7fecc18d-c371-4b7d-8495-d040a6ce981b.jpg)
+
 Faça esse processo em ambas as Máquinas Virtuais de todos os computadores a serem posteriormente conectados.
