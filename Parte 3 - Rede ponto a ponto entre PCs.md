@@ -4,15 +4,13 @@
 
  ## Conexão ponto a ponto
  
-* Abrir o terminal nos 4 PCs e, assim verifique as configurações de rede;
-* A configuração de interfaces de rede Ubuntu no Neplan;
-* Para encontramos esse arquivo digitamos: 
+* Antes de iniciar, é preciso realizar uma verificação da existência do arquivo ```01-network-manager-all.yaml``` dentro da pasta ```/etc/netplan``` e confirmar se no arquivo de configuração, a entrada apresentada é ```renderer:NetworkManager```, caso a que estiver sendo apresentada for ```renderer:networkd```, um erro do tipo ```Wired Unmanaged error``` aparecerá. Para efetuarmos essa verificação, executa-se os seguintes comandos:
 ```bash
 ifconfig -a
 cd /etc/netplan
 ls -la 
 cat /etc/netplan/01-network-manager-all.yaml
-   ```
+```
 ## Criando uma rede ponto a ponto com as 8 máquinas virtuais
 * Criar uma rede ponto a ponto entre os 4 PCs, mas juntando uma LAN com 2 VMs dentro do VirtualBox de cada PC;
 * É necessário que as VMs e as interfaces das VMs sejam configuradas;
@@ -31,18 +29,22 @@ ls -la /etc/netplan
 cat /etc/netplan/01-netcfg.yaml
 ```
 * Verifique se o nome do arquivo está correto no seu servidor.
-   
-## Configuração da VMs nos PCs
-Na VM - Lab01 do PC1E assim, faça o mesmo para pingar as outras duas máquinas
 
-* Configure o IP.
-* Edite o arquivo 01-netcfg.yaml.
+  ![20220811_092438](https://user-images.githubusercontent.com/80183918/186790808-855c9080-1296-458b-b669-0b269d6aa1ff.jpg)
+   
+## Configuração das VMs nos PCs
+Após realizar as verificações anteriores, especificamente a existência do arquivo ```01-netcfg.yaml```, deve-se editar o arquivo em questão tendo como base os endereços pré-definidos
+
+* Deve-se entrar no arquivo 01-netcfg.yaml e configurar o endereço IP. Para isso, executa-se o comando
 ```bash
 $ sudo nano /etc/netplan/01-netcfg.yaml
 ```
-* Adicione as linhas para a configuração estática do IP para configurar o IP para 192.168.13.48/28
 
-* Depois de salvar o arquivo é necessário aplicar as configurações, com o netplan apply e após veja a configuração das interfaces com:
+  FOTO do antes
+  FOTO do depois
+  
+* Deve ser Adicionado as linhas para a configuração estática do IP foi definido anteriormente, sendo um específico para cada máquina virtual e a desativação do dhcp, visto que não se quer que um endereço seja gerado de forma dinâmica. Para essa edição ser realizada, a série de comandos a ser feitas será:
+
 ```bash
 ifconfig -a.
 ```
