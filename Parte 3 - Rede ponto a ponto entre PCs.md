@@ -61,9 +61,15 @@ $ ifconfig -a.
 * Configuração das NICs como modo “bridge”.
 ## Testar a conectividade entre as VMs com o comando ping.
 ```bash
-    Ping da VM1-PC1 para VM2-PC2
-    Ping da VM1-PC1 para VM2-PC2
+    Ping da VM1-PC4 para VM1-PC2
+```    
+   ![20220811_103625](https://user-images.githubusercontent.com/80183918/186924089-c7b60969-9cef-4756-bcf6-a11434cc47b6.jpeg)
+
+```bash
+    Ping da VM2-PC4 para VM2-PC2
 ```
+   ![20220811_103616](https://user-images.githubusercontent.com/80183918/186924079-8b17e16e-a807-4a51-80e5-01104170f92f.jpeg)
+
 > NOTA: E assim, faça o mesmo para pingar as outras duas máquinas.
 
 
