@@ -41,18 +41,26 @@
   
   ### Ativação das configuração da interface
   * Antes de tudo, verifique a existência das interfaces pelo ```terminal da VM```, usando ```ifconfig-a```.
+    
+    ![20220825_074304](https://user-images.githubusercontent.com/80183918/186935323-2d6e76f8-8ab7-47bf-9830-18a60066b327.jpeg)
+
+   
+
   * Para que o Adaptador 2 funcione corretamente, temos que acessar o arquivo ```yaml``` e ativar o ```DHCP```, definindo ele como ```true```.
    ```bash
     sudo nano /etc/netplan/01-netcfg.yaml
   ```
-  * FOTO DA ALTERAÇÃO 
   * Feito isso, aplique as alterações e verifique se o endereço IP da interface de rede que criamos foi estabelecido corretamente.
   ```bash
     sudo netplan apply #aplica alterações 
+  ``` 
+![20220825_074525](https://user-images.githubusercontent.com/80183918/186935307-912695eb-6647-4772-9430-c6e1e199ebb4.jpeg)
+
+  ```bash 
     ifconfig -a        #verifica alterações
   ```
-  * FOTO DA VERIFICAÇÃO
-  
+  ![20220825_075021](https://user-images.githubusercontent.com/80183918/186935314-ab1a3d05-70d4-4f13-a8c4-9530eaa784e0.jpeg)
+
   ### Passo 3 - Acesso da VM pelo terminal do PC
   * Vimos que o comando para estabelecer uma conexão é:
     ssh ```<user>```@```<ipServidorRemoto>```
