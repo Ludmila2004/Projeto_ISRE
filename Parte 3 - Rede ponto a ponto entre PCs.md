@@ -43,6 +43,7 @@ $ sudo nano /etc/netplan/01-netcfg.yaml
   
 * Deve ser Adicionado as linhas para a configuração estática do IP foi definido anteriormente, sendo um específico para cada máquina virtual e a desativação do dhcp, visto que não se quer que um endereço seja gerado de forma dinâmica. Para essa edição ser realizada, a série de comandos a ser feitas será:
 
+
 ```bash
 ifconfig -a.
 ```
