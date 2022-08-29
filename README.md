@@ -1,4 +1,4 @@
-### Instituto Federal de Alagoas - Campus Arapiraca<br>Disciplina: Infraestrutura e Serviços de Rede<br>Turma: 913 - Informática<br>Grupo 4: Giovanna Stephany Souza da Silva, Júlia Vitória Marques Góis, José Cristiano Costa Sobrinho, Ludmila Barbosa da Silva
+### Instituto Federal de Alagoas - Campus Arapiraca<br>Disciplina: Infraestrutura e Serviços de Rede<br>Turma: 913 - Informática<br>Grupo 4: Giovanna Stephany Souza da Silva, Júlia Vitória Marques de Góis, José Cristiano Costa Sobrinho, Ludmila Barbosa da Silva
 
 <p align="center">Projeto do 2° bimestre - Ambiente de rede contendo 8 máquinas virtuais com o S.O Ubuntu Server<p>
 
