@@ -10,6 +10,8 @@
   
 # Adicionando 4 usuários (correspondente aos 4 integrantes do grupo) nas VM's:
   
+> Para adicionar mais usuários (além do administrador, que já existe), uttiliza-se o comando ```sudo adduser <nomedousuário>```:
+  
    * Imagens que ilustram à adição dos usuários nas VM's 1 e 2 do PC4:
   
    ![20220812_115435](https://user-images.githubusercontent.com/80183918/187903828-f507520a-edff-4a4b-b38e-4099a83326c8.jpg)
