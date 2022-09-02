@@ -1,7 +1,9 @@
 # Alterando o hostname das VM's:
 
-> Como requerido, foi-se alterado o hostname de todas as VM's para que a identificação e padronização acontecesse. Desta forma, utilizando o comando ```sudo hostnamectl set-hostname <nomedaVM>```
-  
+## Objetivos
+Alterar o hostname de todas as VM's para que todas elas sejam identificadas e padronizadas, utilizando o comando ```sudo hostnamectl set-hostname <nomedaVM>```
+
+## Passos
   * Imagens que ilustram à alteração dos hostnames nas VM's 1 e 2 do PC4:
   
   ![20220811_105441](https://user-images.githubusercontent.com/80183918/187902963-9d6e8160-b0e1-4149-a1be-c0297a7ac193.jpg)
