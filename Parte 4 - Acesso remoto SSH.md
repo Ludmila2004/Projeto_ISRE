@@ -11,9 +11,13 @@ Realizar uma conexão entre VMS de computadores diferentes, por meio do comando 
 
 1. Nas configurações das VM's mude o Adaptador1 para NAT, O modo NAT permite que a sua máquina virtual se conecte à rede interna utilizando o IP da sua máquina física.
 
+Figura 1: Habilite  as configurações da rede para NAT  
+
    ![20220811_105708~3](https://user-images.githubusercontent.com/80183918/186547690-92ab2436-9b8b-450a-94ce-34d9ffdd82b6.jpg)
 
 2. E comente com "#" as linhas de endereço IP estático do (gateway e endereço IP) e ative o DHCP nas configurações do Netplan
+
+ Figura 2: Comentando as linhas de endereço IP e ativando o DHCP.
 
    ![20220811_112925](https://user-images.githubusercontent.com/80183918/186547851-f46b9f8e-9d28-4dc6-b88a-13b600fca3a4.jpg)
 
@@ -30,6 +34,7 @@ Realizar uma conexão entre VMS de computadores diferentes, por meio do comando 
   ```bash
   sudo apt upgrade -y
   ```
+ Figura 3: Verficando se as VMs estão com acesso à internet.
   
 ![20220811_113926~2](https://user-images.githubusercontent.com/80183918/186549359-f4febe16-1fe5-46ce-9e8b-132abf98eb38.jpg)
 
@@ -48,6 +53,8 @@ systemctl status ssh
 ```
 Após esses passos é só esperar um tempinho para que haja uma instalação bem sucedida.
 
+Figura 4: Instalando o SSH.
+
 ![20220811_114044](https://user-images.githubusercontent.com/80183918/186551722-aadb229c-4add-4616-ba35-1dc72c157b65.jpg)
 
 ## Verificação das portas do sistema
@@ -57,6 +64,8 @@ Faz-se necessário uma verificação das conexões TCP na porta 22, de forma que
 ```bash
 netstat -an | grep LISTEN. 
 ```
+ Figura 5: Verificando das portas do sistema
+ 
 ![20220811_123041~2](https://user-images.githubusercontent.com/80183918/186551745-fbcdc617-0fdb-4ad0-9bb5-92f95bc92983.jpg)
 
 ## Verificar o Firewall
@@ -74,6 +83,7 @@ Após o uso do comando citado acima, a saída irá dizer se o firewall UFW está
 ```bash
 sudo ufw enable
 ```
+Figura 6: Verificando o Firewall
 
 ![20220811_123149~2](https://user-images.githubusercontent.com/80183918/186553568-9aef9217-9a49-404a-b259-cce85f811180.jpg)
 
@@ -87,6 +97,8 @@ Para testar as conectividades das VM's, basta o usuário seguir o modelo de coma
 ssh administrador@192.168.13.49
 ```
 Alguns testes de conectividade através do SSH entre os PCs 2 e 4:
+
+Figura 7: Acessando as Vms.
 
 ![20220811_103625](https://user-images.githubusercontent.com/80183918/186794517-d8bdbe3f-eae1-44b7-afab-6bea8d812061.jpg)
 ![20220811_103616](https://user-images.githubusercontent.com/80183918/186794519-7fecc18d-c371-4b7d-8495-d040a6ce981b.jpg)
