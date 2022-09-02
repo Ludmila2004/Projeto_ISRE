@@ -1,29 +1,46 @@
 # Alterando o hostname das VM's:
 
-## Objetivos
-Alterar o hostname de todas as VM's para que todas elas sejam identificadas e padronizadas, utilizando o comando ```sudo hostnamectl set-hostname <nomedaVM>```
-
-## Passos
-  * Imagens que ilustram à alteração dos hostnames nas VM's 1 e 2 do PC4:
+> Como requerido, foi-se alterado o hostname de todas as VM's para que a identificação e padronização acontecesse. Desta forma, utilizando o comando ```sudo hostnamectl set-hostname <nomedaVM>```
   
-  ![20220811_105441](https://user-images.githubusercontent.com/80183918/187902963-9d6e8160-b0e1-4149-a1be-c0297a7ac193.jpg)
+  * Imagens que ilustram à alteração dos hostnames nas VM's:
   
-  ![20220811_105441](https://user-images.githubusercontent.com/80183918/187902963-9d6e8160-b0e1-4149-a1be-c0297a7ac193.jpg)
+  ![Captura de tela de 2022-09-02 11-07-14](https://user-images.githubusercontent.com/80183918/188167058-2d43c6c9-f309-442e-ba95-bc393e7ecfdf.png)
+    
+    - Alterando hostname da VM1 do PC4
+  
+  ![Captura de tela de 2022-09-02 11-07-29](https://user-images.githubusercontent.com/80183918/188167079-1f5b4645-fb9e-4a8d-8ec7-09e493072826.png)    
+   
+    - Alterando hostname da VM2 do PC4
   
 # Adicionando 4 usuários (correspondente aos 4 integrantes do grupo) nas VM's:
   
-> Para adicionar mais usuários (além do administrador, que já existe), uttiliza-se o comando ```sudo adduser <nomedousuário>```:
-  
-   * Imagens que ilustram à adição dos usuários nas VM's 1 e 2 do PC4:
-  
-   ![20220812_115435](https://user-images.githubusercontent.com/80183918/187903828-f507520a-edff-4a4b-b38e-4099a83326c8.jpg)
-  
-   ![20220812_115535](https://user-images.githubusercontent.com/80183918/187903841-eb06b56d-b7cd-41fe-9954-2fdef8f2239f.jpg)
-  
-   ![20220812_115635](https://user-images.githubusercontent.com/80183918/187904100-036cb300-1a3c-4de3-90bb-ce47104c933d.jpg)
-  
-   ![20220812_115734](https://user-images.githubusercontent.com/80183918/187904106-219170f5-9662-4392-aa7a-f73b7a6fbbdf.jpg)
+ * Para adicionar usuários (além do administrador, que já existe), uttiliza-se o comando ```sudo adduser <nomedousuário>```:
 
-## Vale salientar que os processos anteriores devem ser feitos nas duas VM's dos outros 3 computadores!
+ * Foi efetuada a verificação da existência dos usuários através do comando ```getent passwd```
+  
+  ![Captura de tela de 2022-09-02 11-02-08](https://user-images.githubusercontent.com/80183918/188167392-63051288-d16d-4fc7-817d-a655bbe676a5.png)
+    
+    - Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC1
+  
+  
+  ![WhatsApp Image 2022-09-02 at 11 31 46](https://user-images.githubusercontent.com/80183918/188172594-af1aa6d2-2695-4e1e-85e4-54b0cc2f0b89.jpeg)
+  
+    - Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC2
+  
+  
+  ![WhatsApp Image 2022-09-02 at 11 32 04](https://user-images.githubusercontent.com/80183918/188172600-229d9748-1859-464a-85ea-946a5423d50e.jpeg)
+  
+    - Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC3
+  
+  
+  ![WhatsApp Image 2022-09-02 at 11 34 16](https://user-images.githubusercontent.com/80183918/188172612-475a6dc9-934d-44c5-ab73-2eca91602155.jpeg)
+  
+    - Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC4
+
+
+
+    
+  
+  
 
 
