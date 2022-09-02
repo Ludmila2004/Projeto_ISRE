@@ -22,22 +22,16 @@
   
   ![Captura de tela de 2022-09-02 11-02-08](https://user-images.githubusercontent.com/80183918/188167392-63051288-d16d-4fc7-817d-a655bbe676a5.png)
     
-   Figura 3: Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC1
-  
+  Figura 3: Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC1
   
   ![WhatsApp Image 2022-09-02 at 11 31 46](https://user-images.githubusercontent.com/80183918/188172594-af1aa6d2-2695-4e1e-85e4-54b0cc2f0b89.jpeg)
   
-    FIgura 4: Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC2
-  
-  
+  Figura 4: Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC2
   ![WhatsApp Image 2022-09-02 at 11 32 04](https://user-images.githubusercontent.com/80183918/188172600-229d9748-1859-464a-85ea-946a5423d50e.jpeg)
   
-    Figura 5: Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC3
-  
-  
+  Figura 5: Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC3
   ![WhatsApp Image 2022-09-02 at 11 34 16](https://user-images.githubusercontent.com/80183918/188172612-475a6dc9-934d-44c5-ab73-2eca91602155.jpeg)
-  
-    FIgura 6: Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC4
+   Figura 6: Comprovação da existência dos 4 usuários (giovanna, julia, ludmila e cristiano) nas máquinas virtuais do PC4
 
 
 
