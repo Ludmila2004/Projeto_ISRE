@@ -7,22 +7,29 @@ Implementar uma rede ponto a ponto, a fim de estabelecer uma conexão entre as V
 ```bash
 sudo apt install virtualbox-ext-pack
 ```
+
+Figura 1: Instalando o VirtualBox.
+
 ![img8](https://user-images.githubusercontent.com/80183918/185101387-c33e7674-53ab-44cd-9aae-93adf68d3ad7.png)
 
 
 ### Importação das VMs para dentro do VirtualBox
 
+
 * Como o objetivo principal deste projeto é conectar 8 máquinas virtuais, precisamos primeiramente importá-las para o VirtualBox, já que possuímos o arquivo ```ubuntu-server-mini.ova```(formato de exportação da VM) de cada uma delas.
- 1) Arquivo > Importar Appliance 
-  
-    ![Inkedimg9](https://user-images.githubusercontent.com/80183918/185103492-6f1d74ac-7414-4bb4-aa27-b5a3c20e6593.jpg)
- 2) Na parte de ORIGEM, é inserido o caminho e o arquivo .ova que será importado. No lado de CONFIGURAÇÕES, é definido o nome da máquina virtual e logo abaixo (em PASTA PADRÃO PARA MÁQUINAS) o caminho do diretório em que as máquinas serão salvas.
+
+ Figura 2:  Arquivo > Importar Appliance 
+
+   ![Inkedimg9](https://user-images.githubusercontent.com/80183918/185103492-6f1d74ac-7414-4bb4-aa27-b5a3c20e6593.jpg)
+ * Na parte de ORIGEM, é inserido o caminho e o arquivo .ova que será importado. No lado de CONFIGURAÇÕES, é definido o nome da máquina virtual e logo abaixo (em PASTA PADRÃO PARA MÁQUINAS) o caminho do diretório em que as máquinas serão salvas.
+ 
+    Figura 3: Incessão do link para importação.
  
     ![Inkedimg10](https://user-images.githubusercontent.com/80183918/185105820-5e2b0325-9b95-4e15-a775-a00b0dcc352c.jpg)
  
     ![img11](https://user-images.githubusercontent.com/80183918/185108262-51d8d28d-e9f5-4648-86a6-fd51660727fe.png)
 
- 3) Após a importação, a máquina virtual foi criada e prosseguimos selecionando-a e dando início ao processo de clonagem. Foi redefinido o nome do clone da máquina virtual e novamente inserido o caminho do diretório onde o clone será armazenado
+  * Após a importação, a máquina virtual foi criada e prosseguimos selecionando-a e dando início ao processo de clonagem. Foi redefinido o nome do clone da máquina virtual e novamente inserido o caminho do diretório onde o clone será armazenado
  
     ![Inkedimg12](https://user-images.githubusercontent.com/80183918/185109484-53bb853e-14a2-475d-918b-d9eb3511d051.jpg)
     
@@ -40,6 +47,7 @@ sudo apt install virtualbox-ext-pack
 ```bash
  sudo apt install net-tools -y
 ```
+Figura 4 : Configurando os endereços estáticos
 
   ![20220811_085458~2](https://user-images.githubusercontent.com/80183918/185114064-17ba8b8d-88bd-404f-b6bb-b2e5e783cca0.jpg)
   
@@ -50,6 +58,7 @@ sudo apt install virtualbox-ext-pack
 ```bash
  sudo nano /etc/netplan/01-netcfg.yaml
 ```
+Figura 5: Alterando o arquivo "yaml". 
 
   ![20220811_085734~2](https://user-images.githubusercontent.com/80183918/185116210-32492b3c-c9ac-4d7a-9c68-5c17540770ef.jpg)
 
@@ -77,6 +86,7 @@ sudo apt install virtualbox-ext-pack
 * O ```ping``` é um comando responsável por testar a conectividade. Logo, para saber se as configurações forram bem-sucedidas, basta realizar pings entre as VMs.
 
 * Realizamos os testes de conectividade entre as duas máquinas dos 4 computadores e como comprovação, segue os anexos dos testes entre a VM1 e VM2 do PC4:
+ Figura 6: Realiando a conectividade
   
   ![20220811_092026~2](https://user-images.githubusercontent.com/80183918/185121140-63e04534-2ed6-4321-9cd2-a1d3f4b43ce6.jpg)
   
