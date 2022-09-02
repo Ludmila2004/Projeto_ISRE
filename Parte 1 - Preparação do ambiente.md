@@ -24,6 +24,8 @@ Este será o diretório principal e por isso deve ser criado na raiz ```/```
  sudo mkdir labredes # O sudo mkdir serve para criar diretórios e subdiretórios, nesse caso, dentro do diretório labredes
  ls -la # Comando usado para exibir a lista de diretórios da máquina, neste caso, comprovar que o diretório labredes já está criado
 ```
+Figura 1: Login no usuário redes.
+
 ![Inkedimg2](https://user-images.githubusercontent.com/80183918/184629311-e31af470-a492-4349-af77-94f94b1ea9b1.jpg)
 
 * Para prosseguir com a organização, após criar a pasta ```labredes```, vamos criar os seguintes subdiretórios:
