@@ -86,6 +86,7 @@ Figura 5: Alterando o arquivo "yaml".
 * O ```ping``` é um comando responsável por testar a conectividade. Logo, para saber se as configurações forram bem-sucedidas, basta realizar pings entre as VMs.
 
 * Realizamos os testes de conectividade entre as duas máquinas dos 4 computadores e como comprovação, segue os anexos dos testes entre a VM1 e VM2 do PC4:
+
  Figura 6: Realiando a conectividade
   
   ![20220811_092026~2](https://user-images.githubusercontent.com/80183918/185121140-63e04534-2ed6-4321-9cd2-a1d3f4b43ce6.jpg)
