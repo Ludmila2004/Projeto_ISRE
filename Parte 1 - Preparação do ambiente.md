@@ -1,5 +1,8 @@
 # Preparação do ambiente para alocar as VMs
 
+## Objetivos
+Preparar o ambiente para preceder a importação das VMs, por meio da criação de diretórios e subdiretórios, os quais tornarão o ambiente de trabalho mais organizado, alocando o arquivo de importação das VMs nessa estrutura de organização.
+
 ### Acessar o terminal
 * Inicialmente, é necessário acessar o terminal da máquina e logar com o usuário ```redes``` utilizando o comando:
 ```bash
