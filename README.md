@@ -43,5 +43,5 @@
 * [Parte 4 - Acesso remoto SSH](https://github.com/Ludmila2004/Projeto_ISRE/blob/main/Parte%204%20-%20Acesso%20remoto%20SSH.md)
 * [PARTE 5 - hOST oNLY](https://github.com/Ludmila2004/Projeto_ISRE/blob/main/Parte%205%20-%20Host%20only.md)
 * [Parte 6 - Configuração estática de nomes](https://github.com/Ludmila2004/Projeto_ISRE/blob/main/Parte%206%20-%20Configura%C3%A7%C3%A3o%20est%C3%A1tica%20de%20nomes.md)
-* [Parte extra - Adicionando usuários e alterando hostnames](https://github.com/Ludmila2004/Projeto_ISRE/blob/main/Parte%206%20-%20Configura%C3%A7%C3%A3o%20est%C3%A1tica%20de%20nomes.md)
+* [Parte 7 - Adicionando usuários e alterando hostnames](https://github.com/Ludmila2004/Projeto_ISRE/blob/main/Parte%206%20-%20Configura%C3%A7%C3%A3o%20est%C3%A1tica%20de%20nomes.md)
 
