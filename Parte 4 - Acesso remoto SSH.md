@@ -1,7 +1,11 @@
 <h1 align="left">Acesso Remoto SSH</h1>
-O SSH(Secure Shell) é um protocolo para acessar uma máquina remota em segurança, sendo possível a execução de uma linha de comando, transferência de arquivos e criar redes privadas seguras. A vantagem dele é a segurança e simplicidade.
 
-De primeira instância, vale lembrar que nesse momento do processo a tabela de endereços anteriormente já feita irá ser de extrema importância. 
+> O SSH(Secure Shell) é um protocolo para acessar uma máquina remota em segurança, sendo possível a execução de uma linha de comando, transferência de arquivos e criar redes privadas seguras. A vantagem dele é a segurança e simplicidade.
+> 
+> De primeira instância, vale lembrar que nesse momento do processo a tabela de endereços anteriormente já feita irá ser de extrema importância. 
+
+## Objetivos
+Realizar uma conexão entre VMS de computadores diferentes, por meio do comando ssh.
 
 ## Antes de tudo...
 
