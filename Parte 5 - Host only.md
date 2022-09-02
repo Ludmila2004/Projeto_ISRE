@@ -1,6 +1,7 @@
 # Host Only
 
-> Nesta parte do nosso projeto de trabalhar com VM's, vamos aprender como nos conectar às VM's criadas, utilizando o terminal do computador em que estamos trabalhando. Assim, para fazer isso, iremos utilizar o comando ```ssh``` (explicado na aula anterior) e o coneceito de ```Host-Only``` (o qual será explicado adiante).
+## Objetivos
+Aprender como nos conectar às VM's criadas, utilizando o terminal do computador em que estamos trabalhando. Assim, para fazer isso, iremos utilizar o comando ```ssh``` (explicado na aula anterior) e o coneceito de ```Host-Only``` (o qual será explicado adiante).
 
 ## Passo 1 - Login nas VM's
   Utilizando o VirtualBox se conecte às VM's que você criou.
