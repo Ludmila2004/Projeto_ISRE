@@ -1,4 +1,7 @@
-# Rede Ponto a Ponto Entre VMs
+# Rede Ponto a Ponto Entre VMs 
+
+## Objetivos:
+Implementar uma rede ponto a ponto, a fim de estabelecer uma conexão entre as VMs de um mesmo computador.
 
 > Após termos criado os diretórios e subdiretórios necessários e anexado o arquivo ```ubuntu-server-mini.ova``` no subdiretório ```original```, podemos importar as máquinas virtuais no VirtualBox, para que assim a conexão ponto a ponto entre as VMs sejam feitas. Mas antes de realizar a importação, o pacote de extensão do Virtualbox deve ser instalado (esse pacote permite justamente a conexão remota de máquinas virtuais, que é o que faremos ao decorrer desse projeto). A instalação é bastante simples e é feita através dos comandos:
 ```bash
