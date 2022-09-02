@@ -28,6 +28,8 @@ sudo nano /etc/hosts
 |   VM2-PC4   |   192.168.13.56   |   vm2-pc4   |   vm2-pc4.grupo4-913.ifalara.net   |   lud2   |
 -------------------------------------------------------------------------------------------------
 ```
+Figura 1: Configurando o serviço dos nomes estáticos. 
+
 ![WhatsApp Image 2022-08-26 at 10 55 23](https://user-images.githubusercontent.com/80183918/186919867-71f9e4dc-53cd-4e02-a1b4-78ded03a79e3.jpeg)
 
 >NOTA: Faça isso em todas as 8 VMs!!
