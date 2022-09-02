@@ -2,7 +2,7 @@
 
 > Como requerido, foi-se alterado o hostname de todas as VM's para que a identificação e padronização acontecesse. Desta forma, utilizando o comando ```sudo hostnamectl set-hostname <nomedaVM>```
   
-  * Imagens que ilustram à alteração dos hostnames nas VM's:
+  Firua 1: Imagens que ilustram à alteração dos hostnames nas VM's:
   
   ![Captura de tela de 2022-09-02 11-07-14](https://user-images.githubusercontent.com/80183918/188167058-2d43c6c9-f309-442e-ba95-bc393e7ecfdf.png)
     
