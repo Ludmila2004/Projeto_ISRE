@@ -1,6 +1,7 @@
 <h1 align="left"> Rede ponto a ponto entre PC's</h1>
 
- Criação de uma rede ponto a ponto física entre 4 PCs e uma LAN lógica com 8 VMs
+## Objetivos
+ Criar uma rede ponto a ponto física entre 4 PCs e uma LAN lógica com 8 VMs.
 
  ## Conexão ponto a ponto
  
