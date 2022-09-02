@@ -9,6 +9,8 @@ E a senha:
 ```bash
 admin@Lab92
 ```
+Figura 1: Login no usuário redes.
+
 ![login_redes](https://user-images.githubusercontent.com/80183918/184625891-ce6bb0c1-d7bc-44c3-93cd-0494ec2057db.png)
 
 
@@ -24,7 +26,7 @@ Este será o diretório principal e por isso deve ser criado na raiz ```/```
  sudo mkdir labredes # O sudo mkdir serve para criar diretórios e subdiretórios, nesse caso, dentro do diretório labredes
  ls -la # Comando usado para exibir a lista de diretórios da máquina, neste caso, comprovar que o diretório labredes já está criado
 ```
-Figura 1: Login no usuário redes.
+Figura 2: Criação dos diretórios e subdiretórios.
 
 ![Inkedimg2](https://user-images.githubusercontent.com/80183918/184629311-e31af470-a492-4349-af77-94f94b1ea9b1.jpg)
 
@@ -36,6 +38,8 @@ Figura 1: Login no usuário redes.
  cd /images # Comando para entrar no subdiretório images
  sudo mkdir original # Comando para criar o subdiretório original dentro de images
  ```
+ Fugura 3: Comprovar a existência dos diretórios e subdiretórios
+ 
  ![img3](https://user-images.githubusercontent.com/80183918/184630201-cd243df9-9fa5-4ca3-b428-7e8a2b497d74.png)
 
  * Listagem para comprovar que todos os diretórios e subdiretórios foram criados:
