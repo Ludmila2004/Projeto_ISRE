@@ -20,6 +20,23 @@
 -----------------------------------------------------------------------------------------------
 ```
 
+* Imagem que mostra as configurações de rede das VM's do PC1.
+
+![Captura de tela de 2022-09-02 11-46-58](https://user-images.githubusercontent.com/80183918/188178147-9800a550-4bdb-44c9-b0b1-cf14647406e5.png)
+
+* Imagem que mostra as configurações de rede das VM's do PC2.
+
+![Captura de tela de 2022-09-02 11-49-56](https://user-images.githubusercontent.com/80183918/188178051-a743071f-d05d-40df-9894-7765367ea04e.png)
+
+* Imagem que mostra as configurações de rede das VM's do PC3.
+
+![Captura de tela de 2022-09-02 11-52-28](https://user-images.githubusercontent.com/80183918/188178219-60447757-6ce5-4ed6-92cd-4e6e8837a5cc.png)
+
+* Imagem que mostra as configurações de rede das VM's do PC4.
+
+![Captura de tela de 2022-09-02 11-55-51](https://user-images.githubusercontent.com/80183918/188178370-14a6ecdc-3a64-4637-aec2-4b3923ba200e.png)
+
+
 * Tabela 3: Definições de endereços IP das MVs, nomes para hostname, nomes de domínio (FQDN), apelidos (aliases).
 ```
 -------------------------------------------------------------------------------------------------
