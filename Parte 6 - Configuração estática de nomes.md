@@ -1,6 +1,7 @@
 <h1 align="left"> Configuração estática de nomes</h1>
 
-> NOTA: Está aula tem como objetivo configurar um serviço de nomes e  configurar /etc/hosts.
+## Objetivos
+Esta aula tem como objetivo configurar um serviço de nomes para nossas VMs, utilizando o comando /etc/hosts.
 
 ## Login da VM ubuntu server
 
