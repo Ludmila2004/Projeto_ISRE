@@ -38,12 +38,14 @@ Figura 2: Criação dos diretórios e subdiretórios.
  cd /images # Comando para entrar no subdiretório images
  sudo mkdir original # Comando para criar o subdiretório original dentro de images
  ```
- Fugura 3: Comprovar a existência dos diretórios e subdiretórios
- 
+ Fugura 3:  Comprovar a existência dos diretórios e subdiretórios
+
  ![img3](https://user-images.githubusercontent.com/80183918/184630201-cd243df9-9fa5-4ca3-b428-7e8a2b497d74.png)
 
  * Listagem para comprovar que todos os diretórios e subdiretórios foram criados:
  
+  Fugura 4:Realização dos diretórios responsáveis em armazenar as VMs.
+
 ![img5](https://user-images.githubusercontent.com/80183918/184630977-b9082983-71b7-4e4d-9446-e5de33611dda.png)
  
  * Criação dos diretórios responsáveis por armazenar as VMs criadas
@@ -53,6 +55,8 @@ Figura 2: Criação dos diretórios e subdiretórios.
  sudo mkdir /labredes/projeto913/VM/913 # Comando utilizado para criar a pasta 913 dentro de projeto913
  sudo mkdir /labredes/projeto913/VM/913/<student> # Comando utilizado para criar a pasta do aluno dentro do subdiretório 913, <student> indica que este campo deve ser substituído pelo nome do aluno responsável
 ```
+Figura 5: Criação dos diretórios VMs, 913 e <student>.
+ 
 ![img6](https://user-images.githubusercontent.com/80183918/184631448-d4b1810b-1224-4eb5-afa4-d95234d00961.png)
 
 * OBS: Como observado em algumas das imagens acima, para verificar a existência dos diretórios criados, basta combinar os comandos ```cd``` e ```ls -la```
@@ -65,6 +69,8 @@ Figura 2: Criação dos diretórios e subdiretórios.
  # O comando cp irá copiar o arquivo presente no primeiro caminho para o diretório do segundo caminho
 ```
  * Por fim, basta verificar se o arquivo foi copiado usando o comando ```ls -la```.
+ 
+ Figura 6: Verificação do arquivo
  
  ![img7](https://user-images.githubusercontent.com/80183918/184632848-e818798d-58aa-4935-b778-a750428c68e8.png)
 
