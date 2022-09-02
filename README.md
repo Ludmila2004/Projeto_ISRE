@@ -35,7 +35,9 @@
 |   VM2-PC4   |   192.168.13.56   |   vm2-pc4   |   vm2-pc4.grupo4-913.ifalara.net   |   lud2   |
 -------------------------------------------------------------------------------------------------
 ```
-
+## Considerações finais
+  Com este projeto, percebeu-se a importância de tornar o processo de alteração de hostnames, de aliases, de endereçamento IP e de outros componentes essenciais para uma infraestrura de rede de maneira dinâmica, pois do contrário o trabalho de configuração torna-se complexo, exaustivo e mais suscetível a erros, haja vista a mecanização dos processos realizados.
+  
 ## Partições:
 * [Parte 1 - Preparação do ambiente](https://github.com/Ludmila2004/Projeto_ISRE/blob/main/Parte%201%20-%20Prepara%C3%A7%C3%A3o%20do%20ambiente.md)
 * [Parte 2 - Rede ponto a ponto entre VMs](https://github.com/Ludmila2004/Projeto_ISRE/blob/main/Parte%202%20-%20Rede%20ponto%20a%20ponto%20entre%20VMs.md)
